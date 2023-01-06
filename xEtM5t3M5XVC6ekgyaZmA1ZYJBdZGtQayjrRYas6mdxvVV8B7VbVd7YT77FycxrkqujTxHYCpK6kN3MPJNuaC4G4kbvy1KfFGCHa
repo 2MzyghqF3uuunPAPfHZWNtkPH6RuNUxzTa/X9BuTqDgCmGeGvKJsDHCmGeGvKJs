@@ -1064,15 +1064,6 @@ print("[!] - WARRNING // this is an experimental. ")
 
 
 
-
-
-
-
-
-
-
-
-
 print("[!] - WARRNING // this is an experimental. ")
 local Tab = Window:CreateTab("Internal-Synapse", 4483362458)
 local Paragraph = Tab:CreateParagraph({Title = "Universal Scripts V2", Content = ""})  
@@ -1091,62 +1082,6 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/fortnitemodder/SYNAP
 
     end,  
 })
-
-
-
-
-local Section = Tab:CreateSection("Mobile only")
-local Paragraph = Tab:CreateParagraph({Title = "Mobile Keyboard", Content = ""})
-
-local Button = Tab:CreateButton({
-    Name = "Keyboard",
-    Callback = function()
-        task.wait()
-        
-loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-
-    end,  
-})
-
-
-local Section = Tab:CreateSection("SynapseX only")
-local Paragraph = Tab:CreateParagraph({Title = "saveinstance()", Content = "veryveryhardcode!"})
-
-local Button = Tab:CreateButton({
-    Name = "saveinstance()",
-    Callback = function()
-        task.wait()
-        
-saveinstance()
-
-    end,  
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1701,30 +1636,6 @@ loadstring(game:HttpGet("https://fern.wtf/scripts/skywars_bridge_autowin.lua", t
 
 
 
-
-
-
-
-
-
-
-
-
-
----END OF CODE
---FUNCTIONS ONLY NOW
-
---better uptime xAJwWt9QgDawo7sQGidqmevL
-
-
-
-
-
-
-
-
-
-
 print("LOADING // ADMIN DETECTION")
 
 local Network = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Uvxtq/Project-AlphaZero/main/AlphaZero/CustomFuncs/Network.lua"))()
@@ -1807,17 +1718,6 @@ Players.PlayerAdded:Connect(function(Player)
     end
 end)
 
-
-
-
-
-
-
-
-
-
-
---Admin hop thing end
 
 
 print("Loading // anti kick cleint S")
